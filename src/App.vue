@@ -1,18 +1,23 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h3>Reusable Component Test</h3>
+
+  <ResuseableCompenent />
 </template>
 
+
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ResuseableCompenent from './components/ReusableComponent'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ResuseableCompenent    
   }
 }
 </script>
+
 
 <style>
 #app {
